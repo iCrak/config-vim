@@ -1,4 +1,5 @@
 " configuracion de comentarios
-nnoremap <C-o> :Commentary<CR>
-vnoremap <C-o> :Commentary<CR>
+nnoremap <C-p> :Commentary<CR>
+vnoremap <C-p> :Commentary<CR>
+
 

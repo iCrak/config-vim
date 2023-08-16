@@ -1,5 +1,6 @@
 syntax on
 
+set hidden
 set mouse=a
 set noerrorbells
 set sw=2
@@ -30,18 +31,17 @@ so ~/.config/nvim/vim/plugins.vim
 let mapleader = " "
 
 " Config Plugins
- so ~/.config/nvim/vim/config.vim
+so ~/.config/nvim/vim/config.vim
 " End Config Plugins
 
 " Maps
 so ~/.config/nvim/vim/maps.vim
 " End config maps
 
-
 " LSP configuracion
-" lua << EOF
-" require'lspconfig'.tsserver.setup{on_attach=require'completion'.on_attach}
-" EOF
+lua << EOF
+ require'lspconfig'.tsserver.setup{}
+EOF
 
 
 

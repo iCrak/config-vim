@@ -1,7 +1,9 @@
 {
   "suggest.noselect": false,
-  "eslint.packageManager": " yarn ",
-  "eslint.nodePath": " .yarn/sdks ",
+  "eslint.packageManager": "yarn",
+  "eslint.nodePath": ".yarn/sdks",
   "workspace.workspaceFolderCheckCwd": false,
-  "tsserver.tsdk": " .yarn/sdks/typescript/lib "
+  "tsserver.tsdk": ".yarn/sdks/typescript/lib",
+  "javascript.suggest.autoImports": true, 
+  "typescript.suggest.autoImports": true
 }
